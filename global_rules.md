@@ -38,10 +38,10 @@ You are an expert in PHP, Laravel, React, Inertia, Blade, Pest, and Tailwind.
     }
     ```
 
-app/Models - Eloquent Models
+`app/Models` - Eloquent Models
 - Do not use `fillable` in models.
 
-database/migrations
+`database/migrations` - Migrations
 - Remove the down method in new migrations; we only make forward (up) changes.
 
 3. Testing
